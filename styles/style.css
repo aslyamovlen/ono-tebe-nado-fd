@@ -1,1 +1,356 @@
-/* место для вашего кода */
+header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+  height: 293px;
+}
+
+.header_menu {
+  display: flex;
+  white-space: nowrap;
+}
+
+.header_links-list {
+  display: flex;
+  column-gap: 32px;
+  list-style: circle;
+  font-size: 18px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header_links-list-item {
+  text-decoration: underline;
+  text-underline-offset: 3.5px;
+}
+
+.header_links-list-item-padding {
+  padding-left: 2px;
+  text-decoration: underline;
+  text-underline-offset: 3.5px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header_logo {
+  width: 148px;
+  height: 106px;
+}
+
+.heder_logo-image {
+  height: 106px;
+  width: 100%;
+}
+
+
+.header_address {
+  font-size: 18px;
+  display: flex;
+  font-family: 'raleway';
+  font-style: normal;
+  flex-direction: column;
+  max-width: 240px;
+  height: 98px;
+  justify-self: end;
+  align-items: start;
+  text-underline-offset: 4px;
+  line-height: 24.7px;
+}
+
+.cover {
+  min-height: 757px;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 180px;
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.6 );
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.cover_title {
+  width: 1000px;
+  height: 385px;
+  font-size: 100px;
+  color: white;
+  text-transform: uppercase;
+  margin: 165px 50px 120px;
+  font-family: 'raleway', sans-serif;
+  line-height: 116px;
+  font-weight: 700;
+  display: block;
+  z-index: 2;
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_left {
+  text-align: left;
+  letter-spacing: 29.4px;
+}
+
+.aligned-text_center {
+  text-align: center;
+  letter-spacing: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-right: -29.2px;
+  padding-top: 20px;
+  letter-spacing: 30px;
+}
+
+.description {
+  display: flex;
+  margin: 0 50px 50px ;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 18.4px;
+  font-family: 'raleway';
+  font-style: 'Regular';
+}
+
+.bet-button {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  font-style: medium;
+  width: 256px;
+  height: 51px;
+  background-color: transparent;
+  color: white;
+  border: 1px white solid;
+  position: relative;
+  right: 2px;
+  bottom: 13.1px;
+}
+
+.lots {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 150px;
+}
+
+.lots__heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  margin-left: 40px;
+
+}
+
+.lots__card-list-item{
+  width: 334px;
+  min-height: 596px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-link {
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-position: center;
+}
+
+.lots__card-list {
+  display: flex;
+  column-gap: 25px;
+}
+
+.card_type_film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_book {
+  background-image: url(/images/card-lot-02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card_type_picture {
+  background-image: url(/images/card-lot-03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__title {
+  display: block;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: 'Raleway';
+  color: white;
+  z-index: 2;
+  width: 254px;
+  margin-top: 50px;
+  text-decoration: underline;
+  font-style: solid;
+  font-weight: 700;
+  text-underline-offset: 2.5px;
+  text-decoration-thickness: 1px;
+}
+
+.card__text {
+  display: block;
+  font-size: 20px;
+  color: white;
+  z-index: 2;
+  width: 254px;
+  font-family: 'Raleway';
+  line-height: 120%;
+  font-style: 'Regular';
+  margin-bottom: 48px;
+}
+
+.lots__look-more-link {
+  font-size: 20px;
+  margin-left: 40px;
+  position: relative;
+  top: 30px;
+  text-underline-offset: 3.5px;
+}
+
+.about {
+  margin-left: 24px;
+  margin-right: 24px;
+  display: grid;
+  grid-template-columns: 334px 2fr;
+  min-height: 595px;
+  grid-column-gap: 24px;
+  margin-bottom: 180px;
+}
+
+.about_logo {
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: 47px;
+  margin-right: 72px;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  font-size: 20px;
+  justify-content: space-evenly;
+  height: 312px;
+}
+
+.logo_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 133px;
+}
+
+.about__title {
+  font-size: 40px;
+  margin-top: 3px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  margin-right: 402px;
+}
+
+footer {
+  height: 180px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 0 50px 82px;
+}
+
+.footer_address {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  justify-self: start;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  line-height: 24.7px;
+  font-family: 'raleway';
+  font-style: normal;
+}
+
+.footer__menu-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  text-underline-offset: 3.5px
+}
+
+.footer__social-list {
+  display: flex;
+  width: 240px;
+  height: 48px;
+  column-gap: 48px;
+  list-style-type: none;
+  justify-self:last baseline
+}
+
+.footer__social-link {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__social-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
