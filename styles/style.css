@@ -51,7 +51,7 @@ header {
 .header_address {
   font-size: 18px;
   display: flex;
-  font-family: 'raleway';
+  font-family: Raleway;
   font-style: normal;
   flex-direction: column;
   max-width: 240px;
@@ -91,7 +91,7 @@ header {
   color: white;
   text-transform: uppercase;
   margin: 165px 50px 120px;
-  font-family: 'raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   line-height: 116px;
   font-weight: 700;
   display: block;
@@ -133,14 +133,14 @@ header {
   color: white;
   text-transform: uppercase;
   word-spacing: 18.4px;
-  font-family: 'raleway';
+  font-family: Raleway;
   font-style: 'Regular';
 }
 
 .bet-button {
   font-size: 22px;
   text-transform: uppercase;
-  font-family: 'Raleway';
+  font-family: Raleway;
   font-style: medium;
   width: 256px;
   height: 51px;
@@ -214,7 +214,7 @@ header {
   display: block;
   font-size: 22px;
   text-transform: uppercase;
-  font-family: 'Raleway';
+  font-family: Raleway;
   color: white;
   z-index: 2;
   width: 254px;
@@ -222,8 +222,7 @@ header {
   text-decoration: underline;
   font-style: solid;
   font-weight: 700;
-  text-underline-offset: 2.5px;
-  text-decoration-thickness: 1px;
+  text-underline-offset: 3.5px;
 }
 
 .card__text {
@@ -232,7 +231,7 @@ header {
   color: white;
   z-index: 2;
   width: 254px;
-  font-family: 'Raleway';
+  font-family: Raleway;
   line-height: 120%;
   font-style: 'Regular';
   margin-bottom: 48px;
@@ -318,7 +317,7 @@ footer {
   font-size: 18px;
   text-underline-offset: 4px;
   line-height: 24.7px;
-  font-family: 'raleway';
+  font-family: Raleway;
   font-style: normal;
 }
 
