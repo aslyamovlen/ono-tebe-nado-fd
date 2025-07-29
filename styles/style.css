@@ -166,10 +166,6 @@ header {
   flex-direction: column;
 }
 
-.card-link {
-  height: 100%;
-}
-
 .card {
   height: 100%;
   position: relative;
@@ -233,6 +229,7 @@ header {
 
 .card-link {
   text-decoration: none;
+  height: 100%;
 }
 
 .lots__look-more-link {
